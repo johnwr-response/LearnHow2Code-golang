@@ -45,8 +45,6 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
   md introduction-to-packages
   cd introduction-to-packages
   ni main.go
-  go mod init golang-course/04/introduction-to-packages
-  go mod tidy
   ```
   - Variadic parameters
     - The `...<some type>` is how we signify a variadic parameter
@@ -66,3 +64,28 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
   - Packages
     - Code that is already written and of which you can use
     - Imports
+### Short declaration operator
+  ```
+  md short-declaration-operator
+  cd short-declaration-operator
+  ni main.go
+  go mod init golang-course/04/short-declaration-operator
+  go mod tidy
+  go run .
+  ```
+  - Terminology
+    - `keywords`
+      - These are words that are reserved for use by the Go programming language
+        - Sometimes called ***reserved words***
+        - You can't use a keywordfor anything other than it's purpose
+    - `operator`
+      - In `'2 + 2'` the `'+'` is the ***OPERATOR***
+      - An operator is a character that represents an action, i.e. `'+'` is an arithmetic ***OPERATOR*** that represents addition
+    - `operand`
+      - In `'2 + 2'` the `'2'` are the ***OPERANDS***
+    - `statement`
+      - In programming a statement is the smallest standalone element of a program that expresses some action to be carried out. It is an instruction that commands the computer to perform a spesific action. A program is formed by a sequence of one or more statements.
+    - `expression`
+      - In programming an expression is a combination of one or more explicit values, constants, variables, operators and functions that the programming language interprets and computes to produce another value. For example `'2+3'` is an expression which evaluates to `'5'`.
+  - Golang mascot
+    -  
