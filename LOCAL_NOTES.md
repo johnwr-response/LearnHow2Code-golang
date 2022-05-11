@@ -33,3 +33,10 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ### Playground
 - [The Go Playground](https://go.dev/play/)
 - [Better Go Playground with syntax highlight support](https://goplay.tools/)
+### Hello world
+  ```
+  go mod init example.com/username/008-hello-world
+  go mod tidy
+  go fmt
+  go run .\anything.go
+  ```
