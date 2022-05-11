@@ -108,4 +108,26 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
   - Scope
     - Where a variable exists and is accessible
     - Best practice: ***Keep scope as `narrow` as possible***
-  
+### Exploring type
+  ```
+  md exploring-type
+  cd exploring-type
+  ni main.go
+  Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+  go mod init golang-course/04/exploring-type
+  go mod tidy
+  go run .
+  ```
+  - DECLARE a VARIABLE of a certain type and it can hold VALUES of that TYPE
+  - `'Go suffers no fools'`
+    - like `'dead men tells no tales'`
+  - `var z int = 21`
+    - ***package scope***
+  - Primitive data types
+    - In computer science, primitive data type is either of the following:
+      - **A basic type** is a data type provided by a programming language as a basic bilding block. Most languages allow more complicated *composite types* to be constructedstarting from basic types.
+      - **A built-in type** is a data type for which the programming language provides built-in support.
+    - In most programming languages, all basic data types are built-in. In addition, many languages also provide a set of composite data types. Opinions vary as to whether a built-in type that is not basic should be considered 'primitive'.
+    - [Primitive data type](https://en.wikipedia.org/wiki/Primitive_data_type)
+  - Composite data types
+    - In computer science, a **composite data type** or **compound data type** is any data type which can be constructed in a program using the programming language's primitive data types and other composite data types. It is sometimes called a **structure** or **aggregate data type**, although the latter term may also refer to arrays, lists, etc. <u>The act of constructing a composite type is known as `composition`</u>. 
