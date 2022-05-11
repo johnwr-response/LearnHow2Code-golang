@@ -40,3 +40,29 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
   go fmt
   go run .\anything.go
   ```
+### Introduction to packages
+  ```
+  md introduction-to-packages
+  cd introduction-to-packages
+  ni main.go
+  go mod init golang-course/04/introduction-to-packages
+  go mod tidy
+  ```
+  - Variadic parameters
+    - The `...<some type>` is how we signify a variadic parameter
+    - The type `interface{}` is the empty interface
+      - Every value is also of type `interface{}`
+    - So the parameter `...interface{}` means ***give me as many arguments of any type as you'd like***
+  - Throwing away returns
+    - Use the `_` underscore character to throw away returns
+  - You can't have unused variables in your code
+    - This is code pollution
+    - The compiler doesn't allow it
+  - We use this notation in Go
+    - `package.identifier`
+      - ex: fmt.Println()
+        - We would read that as: **From package `fmt` I am using `Println` func** 
+    - An identifier is the name of the variable, constant, func
+  - Packages
+    - Code that is already written and of which you can use
+    - Imports
