@@ -89,3 +89,23 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
       - In programming an expression is a combination of one or more explicit values, constants, variables, operators and functions that the programming language interprets and computes to produce another value. For example `'2+3'` is an expression which evaluates to `'5'`.
   - Golang mascot
     -  
+### The var keyword
+  ```
+  md the-var-keyword
+  cd the-var-keyword
+  ni main.go
+  Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+  go mod init golang-course/04/the-var-keyword
+  go mod tidy
+  go run .
+  ```
+  - Parens
+    `'()'`
+  - Curly Braces
+    `'{}'`
+  - Where var can be used
+    - Any place within the package
+  - Scope
+    - Where a variable exists and is accessible
+    - Best practice: ***Keep scope as `narrow` as possible***
+  
