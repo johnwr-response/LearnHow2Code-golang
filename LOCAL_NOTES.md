@@ -131,3 +131,29 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
     - [Primitive data type](https://en.wikipedia.org/wiki/Primitive_data_type)
   - Composite data types
     - In computer science, a **composite data type** or **compound data type** is any data type which can be constructed in a program using the programming language's primitive data types and other composite data types. It is sometimes called a **structure** or **aggregate data type**, although the latter term may also refer to arrays, lists, etc. <u>The act of constructing a composite type is known as `composition`</u>. 
+### Zero value
+  ```
+  md zero-value
+  cd zero-value
+  ni main.go
+  Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+  go mod init golang-course/04/zero-value
+  go mod tidy
+  go run .
+  ```
+  - Understanding `zero value`
+    - `false` for ***booleans***
+    - `0` for ***integers***
+    - `0.0` for ***floats***
+    - `""` for ***strings***
+    - `nil` for
+      - ***pointers***
+      - ***functions***
+      - ***interfaces***
+      - ***slices***
+      - ***channels***
+      - ***maps***
+  - Use `short declaration operator` as much as possible
+  - Use `var` for
+    - ***zero value***
+    - ***package scope***
