@@ -29,3 +29,7 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
   go list -m all
   go test 
   ```
+## Section 04 : Variables, values & type
+### Playground
+- [The Go Playground](https://go.dev/play/)
+- [Better Go Playground with syntax highlight support](https://goplay.tools/)
