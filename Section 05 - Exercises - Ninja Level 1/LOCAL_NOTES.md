@@ -53,3 +53,20 @@ go run .
   1. In func main
     1. use fmt.Sprintf to print all of the ***VALUES*** to one single string. ***ASSIGN*** the returned value of ***TYPE*** string using the short declaration operator to a ***VARIABLE*** with the ***IDENTIFIER*** `s`
     1. print out the value stored in variable `s`
+### Hands-on exercise `01-04`
+```
+md hands-on-exercise-01-04
+cd hands-on-exercise-01-04
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/05/hands-on-exercise-01-04
+go mod tidy
+go run .
+```
+  1. Create your own type. Have the underlying `TYPE` be `int`
+  1. Create a ***VARIABLE*** of your new ***TYPE*** with the ***IDENTIFIER*** `x` using the ***VAR*** keyword
+  1. In func main
+    1. Print out the value of variable `x`
+    1. Print out the type of variable `x`
+    1. Assign `42` to the ***VARIABLE*** `x` using the `=` ***OPERATOR***
+    1. Print the value of the variable `x`
