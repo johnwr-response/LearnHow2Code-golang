@@ -138,3 +138,31 @@
   go mod tidy
   go run .
   ```
+  - [package fmt](https://godocs.io/fmt)
+  - basic code setup
+  - %v
+  - escaped characterslike \n or \t
+  - format printing
+    - group#1 - General printing to standard out
+      - func Print()
+      - func Printf()
+      - func Println()
+    - group#2 - Printing to a string which you can assign to a variable
+      - func Sprint()
+      - func Sprintf()
+      - func Sprintln()
+    - group#3 - Printing to a file or a web server's response
+      - func Fprint()
+      - func Fprintf()
+      - func Fprintln()
+    - Single character escapes represents special values:
+      - `\a` : U+0007 alert or bell
+      - `\b` : U+0008 backspace
+      - `\f` : U+000C form feed
+      - `\n` : U+000A line feed (newline)
+      - `\r` : U+000D carriage return
+      - `\t` : U+0009 horizontal tab
+      - `\v` : U+000b vertical tab
+      - `\\` : U+005C backslash
+      - `\'` : U+0027 single quote (valid escape only within rune literals)
+      - `\"` : U+0022 double quote (valid escape only within string literals)
