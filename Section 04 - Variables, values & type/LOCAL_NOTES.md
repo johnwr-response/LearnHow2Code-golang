@@ -166,3 +166,13 @@
       - `\\` : U+005C backslash
       - `\'` : U+0027 single quote (valid escape only within rune literals)
       - `\"` : U+0022 double quote (valid escape only within string literals)
+### Creating your own type
+  ```
+  md creating-your-own-type
+  cd creating-your-own-type
+  ni main.go
+  Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+  go mod init golang-course/04/creating-your-own-type
+  go mod tidy
+  go run .
+  ```
