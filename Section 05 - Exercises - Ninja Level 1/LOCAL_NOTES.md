@@ -35,3 +35,21 @@ go run .
   1. in func main
       1. print out the values for each identifier
       1. the compiler assigned values to the variables. What are these called
+### Hands-on exercise `01-03`
+```
+md hands-on-exercise-01-03
+cd hands-on-exercise-01-03
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/05/hands-on-exercise-01-03
+go mod tidy
+go run .
+```
+- Using the code from the previous exercise. 
+  1. At the packet level scope, assign the following values to the three variables
+    1. for x assign `42`
+    1. for y assign `James Bond`
+    1. for z assign `true`
+  1. In func main
+    1. use fmt.Sprintf to print all of the ***VALUES*** to one single string. ***ASSIGN*** the returned value of ***TYPE*** string using the short declaration operator to a ***VARIABLE*** with the ***IDENTIFIER*** `s`
+    1. print out the value stored in variable `s`
