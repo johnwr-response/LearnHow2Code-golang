@@ -176,3 +176,13 @@
   go mod tidy
   go run .
   ```
+### Conversion, not casting
+  ```
+  md conversion-not-casting
+  cd conversion-not-casting
+  ni main.go
+  Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+  go mod init golang-course/04/conversion-not-casting
+  go mod tidy
+  go run .
+  ```
