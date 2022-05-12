@@ -8,3 +8,5 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ## [Section 03 : Your Development Environment](Section%2003%20-%20Your%20Development%20Environment/LOCAL_NOTES.md)
 
 ## [Section 04 : Variables, values & type](Section%2004%20-%20Variables%2C%20values%20%26%20type/LOCAL_NOTES.md)
+
+## [Section 05 - Exercises - Ninja Level 1](Section%2005%20-%20Exercises%20-%20Ninja%20Level%201/LOCAL_NOTES.md)
