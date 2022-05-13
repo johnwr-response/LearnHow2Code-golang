@@ -11,3 +11,5 @@ go mod init golang-course/06/bool-type
 go mod tidy
 go run .
 ```
+### How computers work
+ - [Slide](../Section%2002%20-%20Course%20Overview/RESOURCES/003%2Bhow%2Bcomputers%2Bwork.pdf)
