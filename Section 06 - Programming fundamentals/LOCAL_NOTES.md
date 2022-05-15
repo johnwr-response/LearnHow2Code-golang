@@ -31,3 +31,13 @@ go run .
 - Additional info from package runtime
   - Constant GOOS : Gets the operating system of your runtime
   - Constant GOARCH : Gets the processor architecture of your runtime
+### String type
+```
+md string-type
+cd string-type
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/06/string-type
+go mod tidy
+go run .
+```
