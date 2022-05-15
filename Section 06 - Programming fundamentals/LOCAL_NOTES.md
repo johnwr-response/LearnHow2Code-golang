@@ -13,3 +13,21 @@ go run .
 ```
 ### How computers work
  - [Slide](../Section%2002%20-%20Course%20Overview/RESOURCES/003%2Bhow%2Bcomputers%2Bwork.pdf)
+### Numeric types
+```
+md numeric-types
+cd numeric-types
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/06/numeric-types
+go mod tidy
+go run .
+```
+- All numeric types are distinct except:
+    - byte is an alias for uint8
+    - rune is an alias for int32 (for utf-8)
+- int and uint will automatically optimize for 32 or 64 bits depending on your environment
+- For most cases, only `int` and `byte64` will be used. 
+- Additional info from package runtime
+  - Constant GOOS : Gets the operating system of your runtime
+  - Constant GOARCH : Gets the processor architecture of your runtime
