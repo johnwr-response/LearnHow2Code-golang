@@ -67,3 +67,14 @@ go mod tidy
 go run .
 ```
   1. Create a variable of type string using a raw string literal and print it
+### Hands-on exercise `02-06`
+```
+md hands-on-exercise-02-06
+cd hands-on-exercise-02-06
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/07/hands-on-exercise-02-06
+go mod tidy
+go run .
+```
+  1. Using iota, create 4 constants for the last 4 years and print the values
