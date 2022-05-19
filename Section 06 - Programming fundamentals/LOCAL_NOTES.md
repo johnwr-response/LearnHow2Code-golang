@@ -51,3 +51,13 @@ go mod init golang-course/06/numeral-systems
 go mod tidy
 go run .
 ```
+### Constants
+```
+md constants
+cd constants
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/06/constants
+go mod tidy
+go run .
+```
