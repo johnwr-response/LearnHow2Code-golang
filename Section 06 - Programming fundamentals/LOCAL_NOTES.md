@@ -61,3 +61,13 @@ go mod init golang-course/06/constants
 go mod tidy
 go run .
 ```
+### Iota
+```
+md iota
+cd iota
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/06/iota
+go mod tidy
+go run .
+```
