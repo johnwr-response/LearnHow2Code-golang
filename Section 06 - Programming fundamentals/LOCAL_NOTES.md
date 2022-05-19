@@ -71,3 +71,13 @@ go mod init golang-course/06/iota
 go mod tidy
 go run .
 ```
+### Bit shifting
+```
+md bit-shifting
+cd bit-shifting
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/06/bit-shifting
+go mod tidy
+go run .
+```
