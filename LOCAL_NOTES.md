@@ -12,3 +12,5 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ## [Section 05 - Exercises - Ninja Level 1](Section%2005%20-%20Exercises%20-%20Ninja%20Level%201/LOCAL_NOTES.md)
 
 ## [Section 06 - Programming fundamentals](Section%2006%20-%20Programming%20fundamentals/LOCAL_NOTES.md)
+
+## [Section 07 - Exercises - Ninja Level 2](Section%2007%20-%20Exercises%20-%20Ninja%20Level%202/LOCAL_NOTES.md)
