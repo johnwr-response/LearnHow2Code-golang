@@ -81,3 +81,13 @@ go mod init golang-course/08/conditional-if-else-if-else
 go mod tidy
 go run .
 ```
+### Loop, conditional, modulus
+```
+md loop-conditional-modulus
+cd loop-conditional-modulus
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/08/loop-conditional-modulus
+go mod tidy
+go run .
+```
