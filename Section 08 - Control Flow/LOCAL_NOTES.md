@@ -41,3 +41,13 @@ go run .
     ```for condition {} ```
   - Like a ***C*** `for(;;)`
     ```for {}```
+### Loop - break & continue
+```
+md break-and-continue
+cd break-and-continue
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/08/break-and-continue
+go mod tidy
+go run .
+```
