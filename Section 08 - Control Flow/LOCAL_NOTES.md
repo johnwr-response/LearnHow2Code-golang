@@ -51,3 +51,13 @@ go mod init golang-course/08/break-and-continue
 go mod tidy
 go run .
 ```
+### Loop - printing ascii
+```
+md printing-ascii
+cd printing-ascii
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/08/printing-ascii
+go mod tidy
+go run .
+```
