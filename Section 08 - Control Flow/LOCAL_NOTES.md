@@ -91,3 +91,13 @@ go mod init golang-course/08/loop-conditional-modulus
 go mod tidy
 go run .
 ```
+### Conditional - switch statement
+```
+md conditional-switch-statement
+cd conditional-switch-statement
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/08/conditional-switch-statement
+go mod tidy
+go run .
+```
