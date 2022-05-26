@@ -58,3 +58,13 @@ go mod init golang-course/10/slice-append-to-a-slice
 go mod tidy
 go run .
 ```
+### Slice - deleting from a slice
+```
+md slice-deleting-from-a-slice
+cd slice-deleting-from-a-slice
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/10/slice-deleting-from-a-slice
+go mod tidy
+go run .
+```
