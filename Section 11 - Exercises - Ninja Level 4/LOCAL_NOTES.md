@@ -17,3 +17,19 @@ go run .
   1. Range over the array and print the values
   1. Using format printing:
     1. print the `TYPE` of the `ARRAY`
+### Hands-on exercise `04-02`
+```
+md hands-on-exercise-04-02
+cd hands-on-exercise-04-02
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-02
+go mod tidy
+go run .
+```
+  1. Using a `COMPOSITE LITERAL`:
+    1. create a `SLICE` of `TYPE` int
+    1. assign 10 `VALUES`
+  1. Range over the slice and print the values
+  1. Using format printing:
+    1. print the `TYPE` of the `SLICE`
