@@ -101,4 +101,15 @@ go mod init golang-course/09/hands-on-exercise-03-08
 go mod tidy
 go run .
 ```
-  1. Create a program that uses a switch statement with no switch expression specified. 
+  1. Create a program that uses a `switch statement` with no `switch expression` specified. 
+### Hands-on exercise `03-09`
+```
+md hands-on-exercise-03-09
+cd hands-on-exercise-03-09
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/09/hands-on-exercise-03-09
+go mod tidy
+go run .
+```
+  1. Create a program that uses a `switch statement` with the `switch expression` specified as a variable of `TYPE` string with the `IDENTIFIER` favSport. 
