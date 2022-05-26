@@ -61,7 +61,7 @@ go run .
   1. Follow these steps:
     1. start with this slice:
       `x := []int{42,43,44,45,46,47,48,49,50,51}`
-    1. appent the following value to the slice
+    1. append the following value to the slice
       `52`
     1. print the slice
     1. in ***ONE STATEMENT*** append these to the slice
@@ -72,3 +72,18 @@ go run .
     1. append this slice to the slice:
       `y := []int{56,57,58,59,60}`
     1. print the slice
+### Hands-on exercise `04-05`
+```
+md hands-on-exercise-04-05
+cd hands-on-exercise-04-05
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-05
+go mod tidy
+go run .
+```
+  1. To `DELETE` from a slice, we `APPEND` aling with `SLICING`. Follow these steps:
+    1. start with this slice:
+      `x := []int{42,43,44,45,46,47,48,49,50,51}`
+    1. Use APPEND and SLICING to get these values printed
+      - `[42,43,44,48,49,40,51]`
