@@ -80,3 +80,14 @@ go mod tidy
 go run .
 ```
   1. Create a program that shows the `if statement` in action
+### Hands-on exercise `03-07`
+```
+md hands-on-exercise-03-07
+cd hands-on-exercise-03-07
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/09/hands-on-exercise-03-07
+go mod tidy
+go run .
+```
+  1. Building on the previous hands-on excercise, create a program that uses `else if` and `else`.
