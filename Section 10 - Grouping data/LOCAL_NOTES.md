@@ -48,3 +48,13 @@ go mod init golang-course/10/slice-slicing-a-slice
 go mod tidy
 go run .
 ```
+### Slice - append to a slice
+```
+md slice-append-to-a-slice
+cd slice-append-to-a-slice
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/10/slice-append-to-a-slice
+go mod tidy
+go run .
+```
