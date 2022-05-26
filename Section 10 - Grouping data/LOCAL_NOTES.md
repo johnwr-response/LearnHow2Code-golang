@@ -98,3 +98,13 @@ go mod init golang-course/10/map-introduction
 go mod tidy
 go run .
 ```
+### Map - add element & range
+```
+md map-add-element-and-range
+cd map-add-element-and-range
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/10/map-add-element-and-range
+go mod tidy
+go run .
+```
