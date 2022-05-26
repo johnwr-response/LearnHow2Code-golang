@@ -18,3 +18,5 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ## [Section 08 - Control Flow](Section%2008%20-%20Control%20Flow/LOCAL_NOTES.md)
 
 ## [Section 09 - Exercises - Ninja Level 3](Section%2009%20-%20Exercises%20-%20Ninja%20Level%203/LOCAL_NOTES.md)
+
+## [Section 10 - Grouping data](Section%2010%20-%20Grouping%20data/LOCAL_NOTES.md)
