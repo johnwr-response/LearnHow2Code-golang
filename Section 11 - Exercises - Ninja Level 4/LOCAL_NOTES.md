@@ -87,3 +87,15 @@ go run .
       `x := []int{42,43,44,45,46,47,48,49,50,51}`
     1. Use APPEND and SLICING to get these values printed
       - `[42,43,44,48,49,40,51]`
+### Hands-on exercise `04-06`
+```
+md hands-on-exercise-04-06
+cd hands-on-exercise-04-06
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-06
+go mod tidy
+go run .
+```
+  1. Create a slice to store all the names of the states in the Unites States of America. Use **make** and **append** for this. The goal is to not have the array that underlies the slice created more than once. Whats the length of your slice? Whats the capacity? Print out all the values, along with their index position, using the range clause.
+    ` Alabama`, ` Alaska`, ` Arizona`, ` Arkansas`, ` California`, ` Colorado`, ` Connecticut`, ` Delaware`, ` Florida`, ` Georgia`, ` Hawaii`, ` Idaho`, ` Illinois`, ` Indiana`, ` Iowa`, ` Kansas`, ` Kentucky`, ` Louisiana`, ` Maine`, ` Maryland`, ` Massachusetts`, ` Michigan`, ` Minnesota`, ` Mississippi`, ` Missouri`, ` Montana`, ` Nebraska`, ` Nevada`, ` New Hampshire`, ` New Jersey`, ` New Mexico`, ` New York`, ` North Carolina`, ` North Dakota`, ` Ohio`, ` Oklahoma`, ` Oregon`, ` Pennsylvania`, ` Rhode Island`, ` South Carolina`, ` South Dakota`, ` Tennessee`, ` Texas`, ` Utah`, ` Vermont`, ` Virginia`, ` Washington`, ` West Virginia`, ` Wisconsin`, ` Wyoming`
