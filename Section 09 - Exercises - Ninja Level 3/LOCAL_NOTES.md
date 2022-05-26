@@ -58,3 +58,14 @@ go run .
   1. Create a for loop using this syntax:
     - `for {}`
     . Have it print out the years you have been alive. 
+### Hands-on exercise `03-05`
+```
+md hands-on-exercise-03-05
+cd hands-on-exercise-03-05
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/09/hands-on-exercise-03-05
+go mod tidy
+go run .
+```
+  1. Print out the remainder (modulus) which is found for each number between 10 and 100 when it is divided by 4.
