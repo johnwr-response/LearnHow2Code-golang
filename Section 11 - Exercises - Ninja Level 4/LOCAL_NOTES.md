@@ -99,3 +99,17 @@ go run .
 ```
   1. Create a slice to store all the names of the states in the Unites States of America. Use **make** and **append** for this. The goal is to not have the array that underlies the slice created more than once. Whats the length of your slice? Whats the capacity? Print out all the values, along with their index position, using the range clause.
     ` Alabama`, ` Alaska`, ` Arizona`, ` Arkansas`, ` California`, ` Colorado`, ` Connecticut`, ` Delaware`, ` Florida`, ` Georgia`, ` Hawaii`, ` Idaho`, ` Illinois`, ` Indiana`, ` Iowa`, ` Kansas`, ` Kentucky`, ` Louisiana`, ` Maine`, ` Maryland`, ` Massachusetts`, ` Michigan`, ` Minnesota`, ` Mississippi`, ` Missouri`, ` Montana`, ` Nebraska`, ` Nevada`, ` New Hampshire`, ` New Jersey`, ` New Mexico`, ` New York`, ` North Carolina`, ` North Dakota`, ` Ohio`, ` Oklahoma`, ` Oregon`, ` Pennsylvania`, ` Rhode Island`, ` South Carolina`, ` South Dakota`, ` Tennessee`, ` Texas`, ` Utah`, ` Vermont`, ` Virginia`, ` Washington`, ` West Virginia`, ` Wisconsin`, ` Wyoming`
+### Hands-on exercise `04-07`
+```
+md hands-on-exercise-04-07
+cd hands-on-exercise-04-07
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-07
+go mod tidy
+go run .
+```
+  1. Create a slice of a slice of string. Store the following data in the multi-dimentional slice:
+    - `James`, `Bond`, `Shaken, not stirred`
+    - `Miss`, `Moneypenny`, `Helloooooo, James.`
+  1. Range over the records, then range over the data in each record.
