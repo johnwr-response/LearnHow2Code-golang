@@ -113,3 +113,19 @@ go mod tidy
 go run .
 ```
   1. Create a program that uses a `switch statement` with the `switch expression` specified as a variable of `TYPE` string with the `IDENTIFIER` favSport. 
+### Hands-on exercise `03-10`
+```
+md hands-on-exercise-03-10
+cd hands-on-exercise-03-10
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/09/hands-on-exercise-03-10
+go mod tidy
+go run .
+```
+  1. Write down what these print:
+    1. `fmt.Println(true && true)`  : ***true***
+    1. `fmt.Println(true && false)` : ***false***
+    1. `fmt.Println(true || true)`  : ***true***
+    1. `fmt.Println(true || false)` : ***true***
+    1. `fmt.Println(!true)`         : ***false***
