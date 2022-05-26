@@ -69,3 +69,14 @@ go mod tidy
 go run .
 ```
   1. Print out the remainder (modulus) which is found for each number between 10 and 100 when it is divided by 4.
+### Hands-on exercise `03-06`
+```
+md hands-on-exercise-03-06
+cd hands-on-exercise-03-06
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/09/hands-on-exercise-03-06
+go mod tidy
+go run .
+```
+  1. Create a program that shows the `if statement` in action
