@@ -33,3 +33,18 @@ go run .
   1. Range over the slice and print the values
   1. Using format printing:
     1. print the `TYPE` of the `SLICE`
+### Hands-on exercise `04-03`
+```
+md hands-on-exercise-04-03
+cd hands-on-exercise-04-03
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-03
+go mod tidy
+go run .
+```
+  1. Using the code from the previous exercise, use `SLICING` to create the following new slices and print them
+    1. `[42,43,44,45,46]`
+    1. `[47,48,49,50,51]`
+    1. `[44,45,46,47,48]`
+    1. `[43,44,45,46,47]`
