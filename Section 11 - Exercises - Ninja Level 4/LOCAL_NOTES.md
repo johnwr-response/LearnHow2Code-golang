@@ -138,3 +138,14 @@ go mod tidy
 go run .
 ```
   1. Using the code from the previous example, add a record to your map. Now print the map out using the `range` loop
+### Hands-on exercise `04-10`
+```
+md hands-on-exercise-04-10
+cd hands-on-exercise-04-10
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-10
+go mod tidy
+go run .
+```
+  1. Using the code from the previous example, delete a record from your map. Now print the map out using the `range` loop
