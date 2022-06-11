@@ -127,3 +127,14 @@ go run .
   `bond_james`, `Shaken, not stirred`, `Martinis`, `Women`
   `moneypenny_miss`, `James Bond`, `Literature`, `Computer Science`
   `no_dr`, `Being evil`, `Ice cream`, `Sunsets`
+### Hands-on exercise `04-09`
+```
+md hands-on-exercise-04-09
+cd hands-on-exercise-04-09
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-09
+go mod tidy
+go run .
+```
+  1. Using the code from the previous example, add a record to your map. Now print the map out using the `range` loop
