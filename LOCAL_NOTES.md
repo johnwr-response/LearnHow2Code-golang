@@ -22,3 +22,5 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ## [Section 10 - Grouping data](Section%2010%20-%20Grouping%20data/LOCAL_NOTES.md)
 
 ## [Section 11 - Exercises - Ninja Level 4](Section%2011%20-%20Exercises%20-%20Ninja%20Level%204/LOCAL_NOTES.md)
+
+## [Section 12 - Structs](Section%2012%20-%20Structs/LOCAL_NOTES.md)
