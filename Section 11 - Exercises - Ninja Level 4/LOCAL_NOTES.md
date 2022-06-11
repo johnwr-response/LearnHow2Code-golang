@@ -113,3 +113,17 @@ go run .
     - `James`, `Bond`, `Shaken, not stirred`
     - `Miss`, `Moneypenny`, `Helloooooo, James.`
   1. Range over the records, then range over the data in each record.
+### Hands-on exercise `04-08`
+```
+md hands-on-exercise-04-08
+cd hands-on-exercise-04-08
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/11/hands-on-exercise-04-08
+go mod tidy
+go run .
+```
+  1. Create a map with a key of `TYPE` string which is a person's "last_first" name, and a value of `TYPE` []string which stores their favourite things. Store three records in your map. Print out all of the values, along with their index position in the slice. 
+  `bond_james`, `Shaken, not stirred`, `Martinis`, `Women`
+  `moneypenny_miss`, `James Bond`, `Literature`, `Computer Science`
+  `no_dr`, `Being evil`, `Ice cream`, `Sunsets`
