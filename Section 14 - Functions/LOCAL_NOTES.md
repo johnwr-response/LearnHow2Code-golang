@@ -55,3 +55,14 @@ go run .
   - either because the surrounding function executed a `return statement`
   - reached the end of its `function body`
   - or because the corresponding goroutine is `panicking` 
+### Methods
+```
+md methods
+cd methods
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/14/methods
+go mod tidy
+go run .
+```
+- 
