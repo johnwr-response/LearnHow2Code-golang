@@ -28,3 +28,28 @@ go run .
 ```
   1. Take the code from the previous exercise, then store the values of type person in a map with the key of last name.
   1. Access each value in the map. Print out the values, ranging over the slice.
+### Hands-on exercise `05-03`
+```
+md hands-on-exercise-05-03
+cd hands-on-exercise-05-03
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/13/hands-on-exercise-05-03
+go mod tidy
+go run .
+```
+  1. Create a new type: `vehicle`
+    - The underlying type is struct
+    - The fields:
+      - `doors`
+      - `colors`
+  1. Create two new types `truck` & `sedan`
+    - The underlying type of each of these new types is a struct
+    - Embed the `vehicle` type in both `truck` & `sedan`
+    - Give truck the field `fourWheel` which will be set to bool
+    - Give sedan the field `luxury` which will be set to bool
+  1. Using the `vehicle`, `truck` and `sedan` structs:
+    - using a composite literal, create a value of type `truck` and assign values to the fields
+    - using a composite literal, create a value of type `sedan` and assign values to the fields
+  1. print out each of these values
+  1. print out a single field from each of these values
