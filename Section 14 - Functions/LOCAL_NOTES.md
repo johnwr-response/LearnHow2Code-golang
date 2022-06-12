@@ -65,4 +65,16 @@ go mod init golang-course/14/methods
 go mod tidy
 go run .
 ```
-- 
+### Interfaces
+```
+md interfaces
+cd interfaces
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/14/interfaces
+go mod tidy
+go run .
+```
+- A value can be of more than one type
+- An interface says: if you have these methods, then you are also my type
+- [Composition in Go](https://www.ardanlabs.com/blog/2015/09/composition-with-go.html "Going Go Programming")
