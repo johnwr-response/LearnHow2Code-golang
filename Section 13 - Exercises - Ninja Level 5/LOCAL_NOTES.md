@@ -53,3 +53,14 @@ go run .
     - using a composite literal, create a value of type `sedan` and assign values to the fields
   1. print out each of these values
   1. print out a single field from each of these values
+### Hands-on exercise `05-04`
+```
+md hands-on-exercise-05-04
+cd hands-on-exercise-05-04
+ni main.go
+Add-Content .\main.go "package main`n`nimport `"fmt`"`n`nfunc main() {`n`tfmt.Println(`"Hello code`")`n}"
+go mod init golang-course/13/hands-on-exercise-05-04
+go mod tidy
+go run .
+```
+  1. Create and use an anonymous struct
