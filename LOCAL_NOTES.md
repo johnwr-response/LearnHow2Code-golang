@@ -26,3 +26,5 @@ The Ultimate Comprehensive Course - Perfect for Both Beginners and Experienced D
 ## [Section 12 - Structs](Section%2012%20-%20Structs/LOCAL_NOTES.md)
 
 ## [Section 13 - Exercises - Ninja Level 5](Section%2013%20-%20Exercises%20-%20Ninja%20Level%205/LOCAL_NOTES.md)
+
+## [Section 14 - Functions](Section%2014%20-%20Functions/LOCAL_NOTES.md)
